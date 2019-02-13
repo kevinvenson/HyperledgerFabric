@@ -49,16 +49,16 @@ Testing it via Postman:
 	Type these following keys
 	Key			Value (Samples)
 
-	invoiceNumber		INV002
-	billedTo		Lenovo
-	invoiceDate		2/9/2019
-	invoiceAmount		50000
-	itemDescription		any description here
-	gr			no
-	isPaid			no
-	paidAmount		0
-	repaid			no
-	repaymentAmount		0
+	invoiceNumber:		INV002
+	billedTo:		Lenovo
+	invoiceDate:		2/9/2019
+	invoiceAmount:		50000
+	itemDescription:	any description here
+	gr:			no
+	isPaid:			no
+	paidAmount:		0
+	repaid:			no
+	repaymentAmount:	0
 
 4. After inputting these keys, press SEND. Go back to port 3000 and click SEND to check if it worked.
 
@@ -68,8 +68,8 @@ Testing it via Postman:
 
 	Key			Value (sample)
 	
-	invoiceNumber		INV002
-	gr			yes
+	invoiceNumber:		INV002
+	gr:			yes
 
 6. After inputting these keys, press SEND. Go back to port 3000 and click SEND to check if it worked.
 
@@ -79,9 +79,9 @@ Testing it via Postman:
 
 	Key			Value (sample)
 	
-	invoiceNumber		INVxxx
-	repaid			yes
-	repaymentAmount		51000 (this must be greater than the paidAmount)
+	invoiceNumber:		INVxxx
+	repaid:			yes
+	repaymentAmount:	51000 (this must be greater than the paidAmount)
 
 8. After inputting these keys, press SEND. Go back to port 3000 and click SEND to check if it worked.
 
